@@ -28,11 +28,7 @@
 
     <!-- 加载静态资源 -->
     <mvc:resources mapping="/static/**" location="/static/"/>
-<!--    <mvc:resources location="/css/" mapping="/css/**"/>-->
-<!--    <mvc:resources location="/static/fonts/" mapping="/fonts/**"/>-->
-<!--    <mvc:resources location="/static/images/" mapping="/images/**"/>-->
 
-    <mvc:default-servlet-handler/>
 
     <!-- 配置拦截器   直接在mvc:interceptors 定义bean 表示拦截所有请求-->
     <!--    <bean class="com.demo.intercept.CustomIntercept"/>-->
